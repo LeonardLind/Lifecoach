@@ -708,22 +708,22 @@
       }
 
       .page2{
-        min-height: calc(125vh - 200px);
+        min-height: calc(150vh - 200px);
       }
 
       #c1 {
         position: absolute;
-        margin-bottom: 500px;
+        margin-bottom: 600px;
 
       }
       #c2 {
         position: absolute;
-        margin-bottom: 0px;
+        margin-bottom: 100px;
 
       }
       #c3 {
         position: absolute;
-        margin-top: 500px;
+        margin-top: 400px;
 
       }
 
@@ -737,7 +737,7 @@
       }
 
       #btn1{
-        margin-top: 900px;
+        margin-top: 800px;
       }
 
       .page3{
@@ -781,7 +781,7 @@
       }
 
       #btn2{
-        margin-top: 1400px;
+        margin-top: 1300px;
       }
 
       .page4 p {
@@ -879,7 +879,7 @@
         margin-left: auto; 
         margin-right: auto; 
         width: 100%;
-        top: 4100px;
+        top: 3800px;
       }
     
       .myapproachp{
@@ -890,7 +890,7 @@
         margin-right: 75px; 
         width: 100%;
         text-align: center;
-        top: 3950px;
+        top: 3650px;
       }
 
       .page5 .container{
@@ -926,7 +926,7 @@
     
       #box1 {
         position: relative;
-        top: 800px;
+        top: 900px;
         margin-left: 30px;
         margin-right: 30px;
       
