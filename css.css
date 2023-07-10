@@ -1,21 +1,13 @@
     :root {
-      --ljusbeige: #f9cdad;
-      --kallbrun: #4f3426;
-      --ljusgrön: #b0d3a5;
-      --ljusgrön2: #C9EEC1;
-      --main-light-color: #f9bbb1;
-      --main-dark-color: #481b0b;
-      /* color type A */
-      --line_color : #555555 ;
-      --back_color : #d3ba9b  ;
-  
-      /* color type B */
-      /* --line_color : #1b1919 ;
-      --back_color : #E9ECFF  ; */
-  
-      /* color type C */
-      /* --line_color : #00135C ;
-      --back_color : #DEFFFA  ; */
+      --ljusbeige: #f9cdad;  /*backroundcolor*/ 
+      --kallbrun: #4f3426;   /*header/footer */  
+      --ljusgrön: #b0d3a5;  /*nothing*/ 
+      --ljusgrön2: #C9EEC1;  /*nothing*/ 
+      --main-light-color: #f9bbb1;  /*nothing*/ 
+      --main-dark-color: #481b0b;  /*backrund p page 4*/  
+      --line_color : #555555 ;  /*btn*/  
+      --back_color : #d3ba9b  ;  /*btn*/ 
+      --boxshadow : #83af9b ; /* boxshadow*/
 
     }
 
@@ -492,7 +484,7 @@
     padding: 50px;
     border-radius: 11px;
     position: relative;
-    box-shadow: 20px 20px #83af9b;
+    box-shadow: 20px 20px var(--boxshadow);
     font-family: "Baloo 2", cursive;
   }
   
@@ -502,7 +494,7 @@
     content: ".";
     font-weight: bold;
     -webkit-text-fill-color: #ece5ce;
-    text-shadow: 22px 22px #83af9b;
+    text-shadow: 22px 22px var(--boxshadow);
     text-align: left;
     font-size: 25px;
     width: 55px;
@@ -514,7 +506,7 @@
     display: block;
     bottom: -30px;
     left: 0;
-    box-shadow: 22px 22px #83af9b;
+    box-shadow: 22px 22px var(--boxshadow);
     z-index: -2;
   }
 
@@ -554,7 +546,7 @@
     margin-bottom: 400px;
     margin-right: 600px;
     border: 6px solid rgb(236, 230, 207); 
-    box-shadow: 20px 10px #83af9b; 
+    box-shadow: 20px 10px var(--boxshadow); 
     border-radius: 36px;
     }
 
@@ -581,6 +573,65 @@
 @media (max-width: 1200px) {
 
   body {overflow-x: hidden;}
+
+  #c1{
+    position: absolute; 
+    left: 0; 
+    right: 600px; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: -300px; 
+
+  }
+
+  #c2{
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 500px;
+
+  }
+
+  #c3{
+    position: absolute; 
+    left: 600px; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: -300px;
+
+  }
+
+  .page2-span{
+    position: relative;
+  }
+
+  .page3 .underlined {
+    left: 200px;
+    width: 25%;
+  }
+
+
+  .page3 p {
+    position: absolute; 
+    left: 0; 
+    right: 500px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 60%;
+    
+  }
+
+  .page3 img{
+    width: 33%;
+    right: 50px;
+  }
+
+  #btn2 {
+    margin-top: 600px;  
+  }
 
 
 
