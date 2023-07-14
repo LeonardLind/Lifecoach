@@ -968,7 +968,7 @@
 
       .page6 span {
         position: absolute;
-        margin-bottom: 3000px;
+        margin-bottom: 3200px;
       }
 
       .page6 .underline-clip:after{
@@ -978,20 +978,20 @@
     
       #box1 {
         position: relative;
-        top: 300px;
+        top: 100px;
         margin-left: 30px;
         margin-right: 30px;
       }
     
       #box2 {
         position: absolute;
-        margin-bottom: 2100px;
+        margin-bottom: 2300px;
         margin-left: 30px;
         margin-right: 30px;
       }
 
       video {
-        margin-bottom: 600px;
+        margin-bottom: 800px;
         margin-left: 30px;
         margin-right: 30px;
         }
