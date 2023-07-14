@@ -606,7 +606,7 @@
 
 /*responsive 1200*/ 
 
-@media (max-width: 1200px) {
+@media only screen and (max-width: 1200px) and (min-width: 481px) {
 
   body {overflow-x: hidden;}
 
@@ -887,76 +887,37 @@
         font-weight: bolder;
       }
 
-
-      .page5{
-        min-height: calc(150vh - 200px);
+      .page4 img {
+        top: 0;
       }
 
-      .page5 span{
+
+      .page5{
+        min-height: calc(200vh - 200px);
+      }
+
+      .page5 .underlined{
         font-size: 45px;
         margin-left: 20px;
         margin-right: 20px;
-        margin-bottom: 1500px;
         line-height: 1;
+        margin-top: -500px;
       }
 
       .page5 .underline-clip:after{
         width: 100%;
       }
 
-      .option {
-        position: relative; 
-        left: 0; 
-        right: 0; 
-        margin-left: auto; 
-        margin-right: auto;
+      .Sboxes {
+        margin-top: -300px;
       }
-    
-      #content1{
-        position: absolute;
-        top: 150px;
-        left: 0; 
-        right: 0; 
-        margin-left: auto; 
-        margin-right: auto;
+      
+      .Sbox {
+        width: 40vw;
+        font-size: 1em;
+        line-height: 1em;
       }
-    
-      #content2{
-        position: inherit;
-        top: 600px;
-        left: 0; 
-        right: 0; 
-        margin-left: auto; 
-        margin-right: auto;
-      }
-    
-      .poption{
-        position: absolute; 
-        left: 0; 
-        right: 0; 
-        margin-left: auto; 
-        margin-right: 100px;
-      }
-    
-      #p1{
-        position: absolute;
-        left: 185px; 
-        right: 0; 
-        margin-left: auto; 
-        margin-right: auto;
-        top: 0px;
-        width: 75%;
-      }
-    
-      #p2{
-        position: absolute;
-        left: 185px; 
-        right: 0; 
-        margin-left: auto; 
-        margin-right: auto;
-        top: 450px;
-        width: 75%;
-      }
+
     
       .myapproach{
         position: absolute; 
@@ -964,8 +925,8 @@
         right: 0; 
         margin-left: auto; 
         margin-right: auto; 
+        margin-top: 800px;
         width: 100%;
-        top: 3800px;
       }
     
       .myapproachp{
@@ -973,14 +934,16 @@
         left: 0px; 
         right: 0px; 
         margin-left: auto; 
-        margin-right: 75px; 
+        margin-right: auto; 
+        padding-left: 10px;
+        padding-right: 10px;
         width: 100%;
         text-align: center;
-        top: 3650px;
+
       }
 
       .page5 .container{
-        margin-top: 2200px;
+        margin-top: 1600px;
         margin-left: 0px;
       }
 
@@ -990,8 +953,6 @@
 
       .page5 .button__text{
         font-size: 15px;
-        text-align: center;
-        padding-right: 35px;
       }
 
 
