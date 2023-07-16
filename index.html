@@ -6,23 +6,40 @@
     <link rel="stylesheet" href="css.css">
     <link href="https://fonts.googleapis.com/css?family=Baloo+2:400,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
-    <title>Document</title>
+    <title>LifeCoach</title>
 </head>
 <body>
+
     <header>
-        <nav>
 
-          <img src="Untitled-1.png" alt="" id="logo">
+      <div id="brand"><a href="/">MyCompany</a></div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work-with-me">Work with me</a></li>
+          <li><a href="#client-stories">Client stories</a></li>
+          <li id="Connect"><a href="#">Connect</a></li>
+        </ul>
+      </nav>
 
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work-with-me">Work with me</a></li>
+          <li><a href="#client-stories">Client stories</a></li>
+          <li id="Connect"><a href="#">Connect</a></li>
 
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#work-with-me">Work With Me</a></li>
-            <li><a href="#client-stories">Client Stories</a></li>
-          </ul>
-        </nav>
+        </ul>
+      </div>
+
       </header>
+
+      <script src="index.js"></script>
     
       <div class="page page1" id="home">
        <img src="im-grieving-670x410.png" alt="">
@@ -180,10 +197,7 @@
       </a>
     
     </div>
-
-
-
-      </div>
+</div>
 
     
       <div class="page page6" id="client-stories">
